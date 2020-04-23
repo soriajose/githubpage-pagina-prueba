@@ -1,0 +1,40 @@
+Documento CSS:
+
+.grid{
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+
+display: grid nos permite ubicar las imagenes asi poder modificar su posicion.
+
+
+grid-template-columns: auto auto auto tiene una plantilla automatica, es decir, pone el tamaño de el template. Por cada imagen/columna es un auto.
+
+----------------------------------------
+.grid img{
+    
+    width: 100%;
+    margin: auto;
+}
+
+Aqui dentro del grid de html lo que hace es definirle a la imagen el tamaño real y el margen automatico para que esten alineados.
+
+-------------------------------------------
+Archivo html:
+
+
+        <div class="grid">
+            
+            <img src="Imagenes/fifa20-grid-tile-full-rating-messi.png.adapt.crop16x9.652w.png" alt="imagen1">
+            <div class="Separador2"></div>
+            <img src="Imagenes/fifa20-grid-tile-full-rating-ronaldo.png.adapt.crop16x9.652w.png" alt="imagen2">
+            
+            
+            <img src="Imagenes/fifa20-grid-tile-full-rating-neymar.png.adapt.crop16x9.652w.png" alt="imagen3">
+            <div class="Separador2"></div>
+            <img src="Imagenes/fifa20-grid-tile-full-rating-hazard.png.adapt.crop16x9.652w.png" alt="imagen4">
+            
+        </div>
+Dentro del div crea una clase grid para poder modificarla dentro del archivo CSS.        

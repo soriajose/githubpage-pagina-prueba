@@ -1,0 +1,101 @@
+*{
+    
+    box-sizing: border-box;
+}
+
+header, footer{
+    
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.grid{
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+
+.grid img{
+    
+    width: 100%;
+    margin: auto;
+}
+
+h1{
+    
+    color: #fcfc72;
+    background-color: black;
+    
+}
+
+p{
+    color: #fcfc72;
+    background-color: black;
+}
+
+hr{
+    color: black;
+    border-style: solid;
+    
+}
+
+.Separador1{
+    
+    height: 50px;
+    clear: both;
+}
+
+.Separador2{
+    
+    width: 5px;
+    height: 1px;
+    float: left;
+}
+
+
+.Centro{
+    
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 0px;
+    border-style: solid;
+    
+}
+
+
+.main{
+    
+    height: 1200px;
+    
+}
+
+img{
+    
+    transition: all 0.5s linear;
+    border-style: solid;
+}
+
+img:hover{
+    transform: scale(0.9);
+    background-color: black;
+}
+
+.main img{
+    
+    width: 49%;
+    float: left;
+}
+
+body{
+    
+    background-image: url(Imagenes/fondofifa.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
